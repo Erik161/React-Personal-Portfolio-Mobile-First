@@ -1,11 +1,10 @@
 import React from 'react';
-import './Header.css';
-import '../Nav/Nav';
+import Nav from '../Nav/Nav';
 
 const Header = () => {
   return (
     <div className="l-header">
-        <Nav/>
+      <Nav/>
     </div>
   )
 }
