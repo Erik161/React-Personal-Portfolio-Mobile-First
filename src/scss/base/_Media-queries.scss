@@ -1,0 +1,55 @@
+/*----- MEDIA QUERIES -----*/
+@media screen and (min-width: 768px){
+    body{
+        margin: 0;
+    }
+    .l-main{
+        height: 100vh;
+    }
+    .nav{
+        height: --header-height + 1rem;
+        &__list{
+            display: flex;
+            padding-top: 0;
+        }
+        &__item{
+            margin-left: 3rem;
+            margin-bottom: 0;
+        }
+        &__toggle, &__close{
+            display: none;
+        }
+        &__link{
+            text-transform: initial;
+        }
+    }
+    .home{
+        grid-template-rows: max-content 20px;
+        align-content: center;
+
+        &__information{
+            margin-top: 2rem;
+        }
+
+        &__social{
+            flex-direction: row;
+            padding-top: 8rem;
+            padding-bottom: 0;
+
+            &-icon{
+                margin-right: 2rem;
+                margin-bottom: 0;
+            }
+        }
+        &__img{
+            width: 553px;
+            right: 5%;
+        }
+    }
+}
+@media screen and (min-width: 1200px){
+    .bd-grid{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
