@@ -1,28 +1,28 @@
 import React from 'react';
-import IMG from './assets/img.jpg';
 
-const Lmain = () => {
+
+const LMAIN = () => {
   return (
-    <div class="l-main bd-grid">
-      <div class="home">
-          <div class="home__information">
-              <span class="home__pressent anime-text">Hello, My name is</span>
-              <h1 class="home__title anime-text">John Doe</h1>
-              <span class="home__skill anime-text">Web Developer</span>
+    <div className="l-main bd-grid">
+      <div className="home">
+          <div className="home__information">
+              <span className="home__pressent anime-text">Hello, My name is</span>
+              <h1 className="home__title anime-text">John Doe</h1>
+              <span className="home__skill anime-text">Web Developer</span>
               
               <div>
-                  <a href="#" class="home__button anime-text">DOWNLOAD CV</a>
+                  <a href="#" className="home__button anime-text">DOWNLOAD CV</a>
               </div>
           </div>
 
-          <div class="home__img">
-              <img src={IMG} alt="" />
+          <div className="home__img">
+              <img src="" alt="" />
           </div>
           
-          <div class="home__social">
-              <ion-icon name="logo-facebook" class="home__social-icon"></ion-icon>
-              <ion-icon name="logo-instagram" class="home__social-icon"></ion-icon>
-              <ion-icon name="logo-twitter" class="home__social-icon"></ion-icon>
+          <div className="home__social">
+              <ion-icon name="logo-facebook" className="home__social-icon"></ion-icon>
+              <ion-icon name="logo-instagram" className="home__social-icon"></ion-icon>
+              <ion-icon name="logo-twitter" className="home__social-icon"></ion-icon>
           </div>
 
       </div>
@@ -30,4 +30,4 @@ const Lmain = () => {
   )
 }
 
-export default Lmain
+export default LMAIN

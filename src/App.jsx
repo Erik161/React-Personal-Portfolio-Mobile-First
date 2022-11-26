@@ -1,13 +1,12 @@
 import { useState } from 'react';
-import './index.scss';
 import Header from './components/Header/Header';
-import Lmain from './components/Lmain/Lmain';
+import LMAIN from './components/LMAIN/LMAIN';
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Lmain/>
+      <LMAIN/>
     </div>
   )
 }
