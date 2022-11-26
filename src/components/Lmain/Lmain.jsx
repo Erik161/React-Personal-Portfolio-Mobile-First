@@ -1,4 +1,5 @@
 import React from 'react';
+import IMG from '../../assets/img.jpg';
 
 
 const LMAIN = () => {
@@ -16,7 +17,7 @@ const LMAIN = () => {
           </div>
 
           <div className="home__img">
-              <img src="" alt="" />
+              <img src={IMG} alt="" />
           </div>
           
           <div className="home__social">
